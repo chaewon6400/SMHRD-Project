@@ -1,0 +1,48 @@
+body {
+  min-height: 100vh;
+
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    right top,
+    from(#fddaa7),
+    to(#fbb64e)
+  );
+  background: -webkit-linear-gradient(bottom left, #fddaa7 0%, #fbb64e 100%);
+  background: -moz-linear-gradient(bottom left, #fddaa7 0%, #fbb64e 100%);
+  background: -o-linear-gradient(bottom left, #fddaa7 0%, #fbb64e 100%);
+  background: linear-gradient(to top right, #fddaa7 0%, #fbb64e 100%);
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 240px;
+  height: 240px;
+}
+
+.daumBtn {
+  background: #faad38;
+}
+
+.join {
+  background: #faad38;
+}
+
+.container {
+  display: block;
+}
+
+.input-form {
+  max-width: 680px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 32px;
+  background: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+}
