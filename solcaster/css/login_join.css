@@ -30,6 +30,11 @@ body {
   display: block;
 }
 
+.login {
+  background: #faad38;
+  display: block;
+}
+
 .container {
   display: block;
 }
