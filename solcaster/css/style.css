@@ -28,8 +28,8 @@
 /*** 로고 ***/
 .logo {
   display: block;
-  width: 180px;
-  height: 180px;
+  width: 190px;
+  height: 190px;
 }
 
 /*** Spinner ***/
@@ -84,20 +84,20 @@
 
 /*** Navbar ***/
 .navbar.sticky-top {
-  top: -100px;
+  top: -120px;
   transition: 0.5s;
 }
 
 .navbar .navbar-brand,
 .navbar a.btn {
-  height: 75px;
+  height: 80px;
 }
 
 .navbar .navbar-nav .nav-link {
   margin-right: 30px;
   padding: 25px 0;
   color: var(--dark);
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
   text-transform: uppercase;
   outline: none;
@@ -146,6 +146,9 @@
     opacity: 1;
   }
 }
+#btn-home {
+  font-size: 18px;
+}
 
 /*** Header ***/
 .owl-carousel-inner {
@@ -173,7 +176,7 @@
   }
 
   .header-carousel .owl-carousel-item p {
-    font-size: 16px !important;
+    font-size: 17px !important;
   }
 }
 
