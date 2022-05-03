@@ -30,9 +30,15 @@ body {
   display: block;
 }
 
+/* 로그인페이지에 있는 가입하기 버튼 */
+.join-l {
+  background: #faad38;
+  display: inline-block;
+}
+
 .login {
   background: #faad38;
-  display: block;
+  display: inline-block;
 }
 
 .container {
@@ -54,4 +60,9 @@ body {
 }
 .margin_center {
   margin: 0 auto;
+}
+
+.btn-groups {
+  width: 100%;
+  text-align: center;
 }
