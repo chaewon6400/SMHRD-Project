@@ -368,6 +368,16 @@
 }
 
 /*** Quote ***/
+
+.video {
+  padding-top: 25px;
+  padding-left: 250px;
+}
+
+.quote-text {
+  padding-left: 50px;
+}
+
 @media (min-width: 992px) {
   .container.quote {
     max-width: 100% !important;
@@ -580,4 +590,12 @@
 
 .footer .copyright a:hover {
   color: var(--primary);
+}
+
+.footer-logo {
+  width: 250px;
+  height: 100px;
+  display: block;
+  margin-top: 30px;
+  margin-left: 20px;
 }
