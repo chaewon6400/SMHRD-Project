@@ -25,6 +25,13 @@
   z-index: 99;
 }
 
+/*** 로고 ***/
+.logo {
+  display: block;
+  width: 180px;
+  height: 180px;
+}
+
 /*** Spinner ***/
 #spinner {
   opacity: 0;
