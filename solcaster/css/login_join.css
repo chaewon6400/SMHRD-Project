@@ -1,7 +1,12 @@
 body {
   min-height: 100vh;
+  height: 133vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/img/loginImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  background: -webkit-gradient(
+  /* background: -webkit-gradient(
     linear,
     left bottom,
     right top,
@@ -12,8 +17,8 @@ body {
   background: -moz-linear-gradient(bottom left, #fddaa7 0%, #fbb64e 100%);
   background: -o-linear-gradient(bottom left, #fddaa7 0%, #fbb64e 100%);
   background: linear-gradient(to top right, #fddaa7 0%, #fbb64e 100%);
+} */
 }
-
 .logo {
   display: block;
   margin: 0 auto;
