@@ -250,6 +250,10 @@
     padding-right: calc(((100% - 1320px) / 2) + 0.75rem);
   }
 }
+.info {
+  text-align: center;
+  display: inline-block;
+}
 
 /*** Service ***/
 .service-item {
