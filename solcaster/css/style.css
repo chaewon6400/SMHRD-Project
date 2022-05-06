@@ -604,3 +604,32 @@
 .vertical-center {
   margin: auto 0;
 }
+
+/*** board List ***/
+
+body #main {
+  background: #fcdb93;
+  padding-bottom: 100px;
+}
+
+#board-list {
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px 100px;
+}
+
+.btn-write {
+  float: right;
+}
+
+.btn-movepage {
+  margin-bottom: 20px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container p {
+  text-align: center;
+}
