@@ -375,7 +375,7 @@
 
 .video {
   padding-top: 25px;
-  padding-left: 320px;
+  padding-left: 300px;
 }
 
 .quote-text {
@@ -626,10 +626,10 @@ body #main {
   margin-bottom: 20px;
 }
 
-.container h1 {
+#board-list h1 {
   text-align: center;
 }
 
-.container p {
+#board-list p {
   text-align: center;
 }
