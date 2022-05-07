@@ -2,7 +2,7 @@ body {
   min-height: 100vh;
   height: 133vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/solcaster/img/loginImage.jpg");
+    url("/img/loginImage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
