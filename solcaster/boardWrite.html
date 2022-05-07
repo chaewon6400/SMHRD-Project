@@ -168,23 +168,17 @@
                                   </span>
                                 </h6>
                               <div>
-                                <div class="btn-group">
-                                  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                    문의 유형
-                                  </button>
-                                  <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">구매문의</a></li>
-                                    <li><a class="dropdown-item" href="#">기술문의</a></li>
-                                    <li><a class="dropdown-item" href="#">AS문의</a></li>
-                              
-                                  </ul>
+                                  <select class="form-select" aria-label="Default select example">
+                                    <option selected>문의 유형을 선택해주세요</option>
+                                    <option value="1">구매문의</option>
+                                    <option value="2">기술문의</option>
+                                    <option value="3">AS문의</option>
+                                  </select>
                                 </div>
                               </div>
                             </div>
-                          </div>
-                        </div>
-                        <br>    <br>    
-                        <div class="input-div">
+                                      
+                        <div class="input-div" style = "padding: 50px 0px 0px 10px;">
                           <div class="checkout__input_2" >
                             <h6>
                               글 내용
@@ -193,12 +187,16 @@
                                 </span>
                               </h6>
                               <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 250px"></textarea>
                                 <label for="floatingTextarea2">Comments</label>
                               </div>
                         </div>
+                            </div>
+                          </div>
+                     
+              
                         <br>
-                        <button type="submit" class="btn btn-write btn-outline-primary" onclick="return checkForm();">
+                        <button type="submit" class="btn btn-write btn-outline-primary"  onClick="">
                           등록
                         </button>
                       </div>
@@ -207,11 +205,6 @@
                 </div>
               </div>
             </section>
-
-
-
-
-
 
 
       </div>
