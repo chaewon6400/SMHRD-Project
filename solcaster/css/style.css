@@ -689,6 +689,18 @@ body #main {
 }
 
 /*** board View ***/
+
+#board-view {
+  background-color: white;
+  border-radius: 5px;
+  padding: 50px 100px;
+}
+
+#board-view h1,
+p {
+  text-align: center;
+}
+
 body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {
@@ -732,10 +744,6 @@ body.is-preload *:after {
 
 #main-content {
   text-align: left !important;
-}
-
-#content {
-  width: 900px;
 }
 
 .board-btn-group {
