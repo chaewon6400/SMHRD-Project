@@ -696,8 +696,11 @@ body #main {
   padding: 50px 100px;
 }
 
-#board-view h1,
-p {
+#board-view h1 {
+  text-align: center;
+}
+
+.help {
   text-align: center;
 }
 
