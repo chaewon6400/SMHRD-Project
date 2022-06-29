@@ -1,0 +1,73 @@
+body {
+  min-height: 100vh;
+  height: 133vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/img/loginImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background: -webkit-gradient(
+    linear,
+    left bottom,
+    right top,
+    from(#fddaa7),
+    to(#fbb64e)
+  );
+  background: -webkit-linear-gradient(bottom left, #fddaa7 0%, #fbb64e 100%);
+  background: -moz-linear-gradient(bottom left, #fddaa7 0%, #fbb64e 100%);
+  background: -o-linear-gradient(bottom left, #fddaa7 0%, #fbb64e 100%);
+  background: linear-gradient(to top right, #fddaa7 0%, #fbb64e 100%);
+} */
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+
+.daumBtn {
+  background: #faad38;
+}
+
+.join {
+  background: #faad38;
+  display: block;
+}
+
+/* 로그인페이지에 있는 가입하기 버튼 */
+.join-l {
+  background: #faad38;
+  display: inline-block;
+}
+
+.login {
+  background: #faad38;
+  display: inline-block;
+}
+
+.container {
+  display: block;
+}
+
+.input-form {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 32px;
+  background: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 8px 2 0px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+}
+.margin_center {
+  margin: 0 auto;
+}
+
+.btn-groups {
+  width: 100%;
+  text-align: center;
+}
